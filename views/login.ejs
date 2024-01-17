@@ -1,0 +1,45 @@
+<%- include('./includes/head') %>
+
+  <%- include('./includes/auth-back-button', {
+    pagina: 'Registrarse',
+    heading: 'Nos alegra verte de nuevo!'
+  }) %>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <ul class="nav nav-underline">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              Correo electronico/numero de telefono
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 mt-4">
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Correo electronico/numero de telefono">
+          </div>
+          <div class="mb-3">
+            <input type="password" class="form-control" placeholder="Contrasenia">
+          </div>
+          <div class="mb-3">
+            <a href="#">Olvidaste tu contrasenia?</a>
+          </div>
+          <div class="d-grid gap-2">
+            <button class="btn btn-secondary rounded-pill">Iniciar sesion</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+
+
+<%- include('./includes/scripts') %>

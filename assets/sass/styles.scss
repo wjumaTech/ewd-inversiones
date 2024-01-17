@@ -1,0 +1,35 @@
+@import "bootstrap/scss/bootstrap";
+:root {
+  --bs-tertiary-bg-rgb: 43,48,53;
+}
+
+
+.avatar {
+  img {
+    width: 35px;
+    height: 35px;
+    border-radius: 500px;
+  }
+}
+
+form[role="search"] {
+  input {
+    border-radius: 25px;
+    width: 200px;
+    background-color: rgba( var(--bs-tertiary-bg-rgb), .2 );
+
+    &:focus {
+      background-color: rgba( var(--bs-tertiary-bg-rgb), .2 );
+      box-shadow: none;
+      border: none;
+    }
+  }
+}
+
+.br-2 {
+  border-radius: 500px;
+}
+
+a {
+  text-decoration: none;
+}
